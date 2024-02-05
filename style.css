@@ -135,3 +135,16 @@ body {
     margin: 1px;
   }
 }
+
+/* phone */
+@media (max-width: 466px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 317px) {
+  html {
+    font-size: 35%;
+  }
+}
