@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Serif:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400&family=Sacramento&display=swap");
+
+:root {
+  --pink: #f14e95;
+  --red: #d24545;
+  --bg: #0a0a0a;
+  --shadow: 0 2px rgb(0, 0, 0/0.5);
+  --font-dancing: "Dancing Script", cursive;
+  --font-noto: "Noto Serif", serif;
+  --font-sacramento: "Sacramento", cursive;
+}
+
+body {
+  font-size: 1.2 rem;
+  font-family: var(--font-noto);
+  min-height: 2000px;
+}
+
+.hero {
+  min-height: 100vh;
+  /* background-color: var(--bg); */
+  /* background-color: rgba(10, 10, 10, 0.8); */
+  background-image: url("img/bg.jpg");
+}
+
+.hero h1 {
+  font-family: var(--font-dancing);
+  font-size: 4.5rem;
+  /* color: var(--red); */
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.hero h4 {
+  font-size: 1.6rem;
+}
+
+.hero p {
+  font-size: 1.4rem;
+}
+
+.hero a {
+  color: var(--red);
+  background-color: white;
+}
+
+.hero a:hover {
+  color: white;
+  background-color: var(--red);
+}
