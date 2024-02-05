@@ -81,28 +81,12 @@ body {
   html {
     font-size: 75%;
   }
-
-  .simply-countdown > .simply-section {
-    /* width: 40px;
-    height: 40px; */
-    padding: 70px;
-    /* font-size: 1.2rem; */
-    margin: 10px;
-  }
 }
 
 /* tablet */
 @media (max-width: 768px) {
   html {
     font-size: 62.5%;
-  }
-
-  .simply-countdown > .simply-section {
-    /* width: 30px;
-    height: 30px; */
-    padding: 60px;
-    /* font-size: 1rem; */
-    margin: 5px;
   }
 }
 
@@ -111,28 +95,12 @@ body {
   html {
     font-size: 50%;
   }
-
-  .simply-countdown > .simply-section {
-    /* width: 20px;
-    height: 20px; */
-    padding: 45px;
-    /* font-size: 0.8rem; */
-    margin: 3px;
-  }
 }
 
 /* phone */
 @media (max-width: 537px) {
   html {
     font-size: 50%;
-  }
-
-  .simply-countdown > .simply-section {
-    width: 5px;
-    height: 5px;
-    padding: 4px;
-    /* font-size: 0.8rem; */
-    margin: 1px;
   }
 }
 
