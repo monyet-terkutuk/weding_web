@@ -1,0 +1,68 @@
+.simply-countdown {
+  overflow: hidden;
+  display: table;
+  font-family: var(--font-noto);
+  margin: auto;
+}
+.simply-countdown > .simply-section {
+  width: 50px;
+  height: 50px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  float: left;
+  margin: 15px;
+  color: white;
+  /* background: #fff; */
+  /* border-radius: 50%; */
+  background-color: rgba(10, 10, 10, 0.3);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.simply-countdown > .simply-section .simply-amount,
+.simply-countdown > .simply-section .simply-word {
+  display: block;
+  text-align: center;
+}
+
+/* laptop */
+@media (max-width: 992px) {
+  html {
+    font-size: 75%;
+  }
+
+  .simply-countdown > .simply-section {
+    /* width: 40px;
+      height: 40px; */
+    padding: 70px;
+    /* font-size: 1.2rem; */
+    margin: 10px;
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  .simply-countdown > .simply-section {
+    /* width: 30px;
+      height: 30px; */
+    padding: 60px;
+    /* font-size: 1rem; */
+    margin: 5px;
+  }
+}
+
+/* phone */
+@media (max-width: 576px) {
+  .simply-countdown > .simply-section {
+    /* width: 20px;
+      height: 20px; */
+    padding: 45px;
+    /* font-size: 0.8rem; */
+    margin: 5px;
+  }
+}
+
+/* phone */
+@media (max-width: 537px) {
+}
