@@ -13,7 +13,7 @@
 body {
   font-size: 1.2 rem;
   font-family: var(--font-noto);
-  min-height: 2000px;
+  min-height: 4000px;
 }
 
 .hero::before {
@@ -74,6 +74,148 @@ body {
   background-color: white;
 }
 
+.my-navbar {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+  backdrop-filter: blur(2px);
+}
+
+.my-navbar .offcanvas {
+  height: 100vh;
+}
+
+.my-navbar .navbar-brand,
+.my-navbar .offcanvas-title {
+  /* color: white; */
+  font-size: 2.1rem;
+  /* font-family: var(--font-sacramento); */
+  font-family: var(--font-dancing);
+  /* text-shadow: var(--shadow); */
+  font-weight: bold;
+}
+
+.my-navbar .nav-link {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.home {
+  background-image: url("img/new.png");
+  background-size: cover;
+  min-height: 100vh;
+  margin-top: -4.8rem;
+  padding-top: 15rem;
+  padding-bottom: 6rem;
+}
+
+.home h2,
+.info h2,
+.gallery h2 {
+  color: var(--red);
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: var(--font-sacramento);
+}
+
+.home .p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.home h3 {
+  color: #444;
+  font-size: 1.5rem;
+  /* font-weight: bold;
+  font-family: var(--font-sacramento); */
+  margin-bottom: 1rem;
+}
+
+.home .couple {
+  margin-top: 100px;
+}
+
+.home .couple h3 {
+  font-family: var(--font-sacramento);
+  font-size: 2.4rem;
+}
+
+.home .couple img {
+  width: 100%;
+}
+
+.home .couple .ortu {
+  font-weight: 500;
+}
+
+.info {
+  background-color: var(--bg);
+  color: white;
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+}
+
+/* .info h2 {
+  color: var(--red);
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: var(--font-sacramento);
+} */
+
+.info .alamat {
+  font-size: 1.1rem;
+}
+
+.info .description {
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-weight: 300;
+}
+
+.info .card {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: white !important;
+  border: 1px solid #999;
+}
+
+.info .card-header {
+  border-bottom: 1px solid #999;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+.info .card-body {
+  font-size: 1rem;
+}
+
+.info .card-footer {
+  border-top: 1px solid #999;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.gallery {
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+/* .gallery {
+  background-color: #f5f5f5;
+} */
+
+.gallery span {
+  text-transform: uppercase;
+  color: #666;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.gallery p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
 /* responsive */
 
 /* laptop */
@@ -81,12 +223,30 @@ body {
   html {
     font-size: 75%;
   }
+  .sticky-top {
+    overflow: hidden;
+  }
 }
 
 /* tablet */
 @media (max-width: 768px) {
   html {
     font-size: 62.5%;
+  }
+
+  .my-navbar .nav-link {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .my-navbar .offcanvas-title {
+    /* font-size: 2rem;
+    text-align: center; */
+    display: hidden;
+  }
+
+  .sticky-top {
+    overflow: hidden;
   }
 }
 
